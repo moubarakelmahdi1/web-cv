@@ -8,12 +8,6 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
-  basePath: '/web-cv',
-  assetPrefix: '/web-cv',
 };
 
 export default nextConfig;
