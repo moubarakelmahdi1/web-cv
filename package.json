@@ -1,5 +1,4 @@
 {
-  "homepage": "https://moubarakelmahdi1.github.io/web-cv",
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
@@ -14,9 +13,7 @@
     "lint": "next lint",
     "build:worker": "opennextjs-cloudflare",
     "preview": "opennextjs-cloudflare && wrangler dev",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts",
-    "predeploy": "next build",
-    "deploy": "gh-pages -d out"
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
